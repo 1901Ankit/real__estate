@@ -976,13 +976,23 @@ blockquote .cite {
   padding-left: 30px;
 }
 blockquote .cite p {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 }
 /* blockquote .cite footer {
   color: #008ed7;
 } */
+.p-0{
+  padding: 0;
+}
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
 
+.bg-video{
+background-color: #212b38;
+}
 .owl-carousel .owl-pagination {
   text-align: center;
 }
@@ -1310,6 +1320,9 @@ textarea:active,
   }
 }
 @media (max-width: 767px) {
+  .videosdw{
+    width: 100%;
+  }
   .top-22 {
     margin-top: 0px;
   }
@@ -2482,4 +2495,7 @@ textarea:active,
 
 .pt-58{
   padding-top: 58px;
+}
+.mt-4{
+  margin-top: 10px;
 }
