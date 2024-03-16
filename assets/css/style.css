@@ -1792,6 +1792,22 @@ textarea:active,
   }
 }
 @media (max-width: 767px) {
+  .pd-l-30 {
+    padding-left: 0px !important;
+  }
+  .pd-r-30 {
+    padding-right: 0px !important;
+  }
+  .fgh {
+    margin-top: 86px !important;
+  }
+  .onbord {
+    font-size: 22px !important;
+    margin-top: 12px;
+  }
+  .skills_para {
+    font-size: 12px;
+  }
   .asked{
 text-align: center;
   }
@@ -3005,4 +3021,22 @@ left: 50% !important;
 
 .slide.active {
   display: block;
+}
+
+.pd-r-30 {
+  padding-right: 60px !important;
+}
+.onbord {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.skills_para {
+  color: black;
+}
+.mb-4{
+  margin-bottom: 20rem;
+}
+
+.rowndes{
+  align-items: center !important;
 }
